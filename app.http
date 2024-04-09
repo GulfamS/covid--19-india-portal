@@ -1,0 +1,27 @@
+POST http://localhost:3000/login/
+Content-Type: application/json
+###
+
+GET http://localhost:3000/states/
+###
+
+GET http://localhost:3000/states/8
+###
+
+POST http://localhost:3000/districts/
+Content-Type: application/json
+###
+
+GET http://localhost:3000/districts/322
+###
+
+DELETE http://localhost:3000/districts/:4/
+Content-Type: application/json
+###
+
+PUT http://localhost:3000/districts/:districtId/
+Content-Type: application/json
+###
+
+GET http://localhost:3000/states/:stateId/stats/
+###
